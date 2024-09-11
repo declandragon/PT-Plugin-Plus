@@ -532,10 +532,10 @@ export default Vue.extend({
         xAxis: {
           type: "datetime",
           dateTimeLabelFormats: {
-            day: "%Y-%m-%d",
-            week: "%Y-%m-%d",
-            month: "%Y-%m-%d",
-            year: "%Y-%m-%d"
+            day: "%m-%d",
+            week: "%m-%d",
+            month: "%m-%d",
+            year: "%m-%d"
           },
           // categories: categories,
           gridLineDashStyle: "ShortDash",
@@ -702,10 +702,10 @@ export default Vue.extend({
           // categories: categories,
           type: "datetime",
           dateTimeLabelFormats: {
-            day: "%Y-%m-%d",
-            week: "%Y-%m-%d",
-            month: "%Y-%m-%d",
-            year: "%Y-%m-%d"
+            day: "%m-%d",
+            week: "%m-%d",
+            month: "%m-%d",
+            year: "%m-%d"
           },
           gridLineDashStyle: "ShortDash",
           gridLineWidth: 1,
